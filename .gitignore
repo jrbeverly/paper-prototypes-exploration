@@ -1,0 +1,9 @@
+# Hugo build output
+public/
+.hugo_build.lock
+
+# Hugo cache
+/tmp/hugo_cache/
+
+# Devcontainer tools symlink
+/opt/devcontainer-tools

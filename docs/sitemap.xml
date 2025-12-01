@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/essays/worked-example/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/ai-and-experimentation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/cheap-learning/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/executable-understanding/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/prototypes-as-questions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/specifications-as-knowledge-capture/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/understanding-before-specification/</loc>
+  </url>
+</urlset>

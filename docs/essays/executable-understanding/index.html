@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Executable understanding — Paper Prototypes</title>
+  <style>
+    body {
+      margin: 0 auto;
+      max-width: 40rem;
+      padding: 2rem 1.5rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fff;
+    }
+    h1, h2, h3 { line-height: 1.3; }
+    a { color: #1a1a1a; }
+    nav { margin: 1.5rem 0; }
+    nav a + a { margin-left: 1rem; }
+    article + article { margin-top: 2.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/" style="text-decoration:none"><strong>Paper Prototypes</strong></a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+    </nav>
+  </header>
+  <main>
+    
+  <article>
+    <h1>Executable understanding</h1>
+    <p><strong>The assumption:</strong> Documentation is the best way to communicate understanding of a system.</p>
+<p><strong>The question:</strong> Can a small interactive artifact communicate an idea more effectively than pages of prose?</p>
+<hr>
+<p>A simple interactive prototype often communicates more in five minutes than a specification document communicates in fifty pages.</p>
+<p>This is not an argument against documentation. It is an observation about how understanding actually transfers between people. When you read a description of a workflow, you interpret it through your own mental model. Subtle mismatches between what the author meant and what the reader understood can survive unnoticed for weeks.</p>
+<p>When you interact with a working example, those mismatches surface immediately. The behaviour is unambiguous. You click something, and something happens. If the behaviour matches your expectation, you have confirmed your understanding. If it does not, you have found a gap.</p>
+<hr>
+<h2 id="assumptions-become-visible">Assumptions become visible</h2>
+<p>Even an incomplete prototype exposes assumptions that remain invisible in written specifications. A document can state &ldquo;the user authenticates and then selects a project&rdquo; without ever forcing the author to decide how many clicks that takes, what happens when the session expires midway, or whether the project list handles a thousand entries.</p>
+<p>A prototype forces those decisions. The author must make the interaction concrete enough to execute. In doing so, they discover the questions they had not thought to ask.</p>
+<p>This is the hidden value of executable understanding: it does not just communicate what you know — it reveals what you do not know yet.</p>
+<hr>
+<h2 id="communication-across-disciplines">Communication across disciplines</h2>
+<p>Executable prototypes also improve communication between different kinds of people. A designer can interact with a prototype and notice that a transition feels jarring. A product owner can click through a flow and realise a step is missing. An engineer can inspect the code and see that an abstraction will not scale.</p>
+<p>None of these observations requires a written specification. Each of them emerged from interacting with something tangible.</p>
+<p>Shared understanding grows faster when participants can react to behaviour rather than descriptions of behaviour.</p>
+
+  </article>
+
+  </main>
+</body>
+</html>

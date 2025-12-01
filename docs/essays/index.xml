@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Essays on Paper Prototypes</title>
+		<link>http://localhost:1313/essays/</link>
+		<description>Recent content in Essays on Paper Prototypes</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/essays/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A worked example</title>
+				<link>http://localhost:1313/essays/worked-example/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/essays/worked-example/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;The situation:&lt;/strong&gt; A team needs to add notifications to their application.&#xA;Emails when a report is ready. A summary when a batch job completes. An alert&#xA;when something breaks.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The question:&lt;/strong&gt; Does this need a message queue on day one? Or can the team&#xA;start simple and evolve?&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The team had been here before. A previous project started with a lightweight&#xA;notification approach and needed a painful migration to a message queue six&#xA;months later. The instinct this time was to spec out the full architecture&#xA;upfront — topics, dead-letter queues, retry policies, the works.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AI and the economics of experimentation</title>
+				<link>http://localhost:1313/essays/ai-and-experimentation/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/essays/ai-and-experimentation/</guid>
+				<description>&lt;p&gt;Artificial intelligence significantly reduces the cost of producing exploratory software.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;This essay is forthcoming.&lt;/em&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cheap learning</title>
+				<link>http://localhost:1313/essays/cheap-learning/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/essays/cheap-learning/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;The assumption:&lt;/strong&gt; Building something that gets thrown away is a waste of time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The question:&lt;/strong&gt; What if the low cost of a prototype is not a compromise — but the whole point?&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The value of a prototype lies in its low cost.&lt;/p&gt;&#xA;&lt;p&gt;This sounds obvious, but it has a non-obvious consequence: the cheaper the prototype, the more freely you can experiment. When building something costs days of effort, you think carefully before starting. You build only what you are reasonably confident will work. You avoid dead ends.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Executable understanding</title>
+				<link>http://localhost:1313/essays/executable-understanding/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/essays/executable-understanding/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;The assumption:&lt;/strong&gt; Documentation is the best way to communicate understanding of a system.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The question:&lt;/strong&gt; Can a small interactive artifact communicate an idea more effectively than pages of prose?&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;A simple interactive prototype often communicates more in five minutes than a specification document communicates in fifty pages.&lt;/p&gt;&#xA;&lt;p&gt;This is not an argument against documentation. It is an observation about how understanding actually transfers between people. When you read a description of a workflow, you interpret it through your own mental model. Subtle mismatches between what the author meant and what the reader understood can survive unnoticed for weeks.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Prototypes as questions</title>
+				<link>http://localhost:1313/essays/prototypes-as-questions/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/essays/prototypes-as-questions/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;The assumption:&lt;/strong&gt; A prototype is an early, incomplete version of the final product.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The question:&lt;/strong&gt; What if a prototype is not an implementation at all — but a question posed in code?&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Every prototype should answer a question.&lt;/p&gt;&#xA;&lt;p&gt;This reframes what it means to build something exploratory. A prototype is not a rough draft of the software you intend to ship. It is an experiment designed to reduce uncertainty about one specific thing. When you have your answer, the prototype has served its purpose. Discard it.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Specifications as knowledge capture</title>
+				<link>http://localhost:1313/essays/specifications-as-knowledge-capture/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/essays/specifications-as-knowledge-capture/</guid>
+				<description>&lt;p&gt;Documentation becomes a record of learning rather than speculation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;This essay is forthcoming.&lt;/em&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Understanding before specification</title>
+				<link>http://localhost:1313/essays/understanding-before-specification/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/essays/understanding-before-specification/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;The assumption:&lt;/strong&gt; Better specifications produce better software.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The question:&lt;/strong&gt; Does writing a detailed spec &lt;em&gt;before&lt;/em&gt; you understand the problem actually produce better outcomes? Or does it just produce documents that look complete while encoding wrong assumptions?&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Specifications communicate understanding. They do not create it.&lt;/p&gt;&#xA;&lt;p&gt;This is the central premise of paper prototyping, and it is worth sitting with for a moment. No matter how carefully you document a system you have not yet built, you are documenting something you do not fully understand. The resulting specification can be thorough, well-structured, and completely wrong.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

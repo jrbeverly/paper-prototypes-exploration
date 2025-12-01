@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Understanding before specification — Paper Prototypes</title>
+  <style>
+    body {
+      margin: 0 auto;
+      max-width: 40rem;
+      padding: 2rem 1.5rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fff;
+    }
+    h1, h2, h3 { line-height: 1.3; }
+    a { color: #1a1a1a; }
+    nav { margin: 1.5rem 0; }
+    nav a + a { margin-left: 1rem; }
+    article + article { margin-top: 2.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/" style="text-decoration:none"><strong>Paper Prototypes</strong></a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+    </nav>
+  </header>
+  <main>
+    
+  <article>
+    <h1>Understanding before specification</h1>
+    <p><strong>The assumption:</strong> Better specifications produce better software.</p>
+<p><strong>The question:</strong> Does writing a detailed spec <em>before</em> you understand the problem actually produce better outcomes? Or does it just produce documents that look complete while encoding wrong assumptions?</p>
+<hr>
+<p>Specifications communicate understanding. They do not create it.</p>
+<p>This is the central premise of paper prototyping, and it is worth sitting with for a moment. No matter how carefully you document a system you have not yet built, you are documenting something you do not fully understand. The resulting specification can be thorough, well-structured, and completely wrong.</p>
+<p>Teams invest enormous effort in upfront design documents. The reasoning is intuitive: if we describe everything in advance, the implementation will go smoothly. But software is not architecture in the physical sense. The behaviour of a system emerges from interactions that are difficult to predict from a static description. Edge cases, performance characteristics, and the actual experience of using the software rarely survive first contact with reality.</p>
+<p>A prototype does not replace the specification. It <em>feeds</em> it. Build something small that exercises the riskiest assumption, watch what happens, and write the spec afterwards. The document you produce will be shorter, more accurate, and far more useful — because it describes something you have already begun to understand.</p>
+<p>The recommended sequence is:</p>
+<ol>
+<li>Identify a problem worth solving.</li>
+<li>Build the cheapest possible prototype that tests your core assumption.</li>
+<li>Observe what the prototype reveals.</li>
+<li>Refine your understanding based on what you learned.</li>
+<li>Document the conclusions.</li>
+</ol>
+<p>The specification becomes the result of understanding rather than the mechanism for achieving it.</p>
+
+  </article>
+
+  </main>
+</body>
+</html>
